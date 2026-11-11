@@ -87,21 +87,21 @@ niezapisanej pracy studentów.
    Skopiowanie go do `.github/instructions` jest częścią ćwiczenia.
    Nie są egzekwowalną polityką bezpieczeństwa; pokaż również approval
    narzędzi i ograniczenie praw dostępu.
-4. **MCP:** przed zajęciami sprawdź logowanie i odczyt Boards.
-   Stwórz jeden work item na grupę na podstawie specyfikacji studentów.
-   Nie wpisuj wymyślonych ID. Jeśli wymagany jest custom Azure DevOps Agent,
+4. **MCP:** przed zajęciami sprawdź logowanie i odczyt Issue.
+   Stwórz jeden Issue na grupę na podstawie specyfikacji studentów.
+   Nie wpisuj wymyślonych ID. Jeśli wymagany jest custom GitHub Agent,
    upewnij się, że jest udostępniony w ich środowisku.
    Odczyt i implementacja nie wymagają publikacji komentarza ani zmiany stanu.
 
 Materiały nie konfigurują aktywnego MCP, nie logują użytkownika,
-nie tworzą work itemów i nie instalują pluginów.
+nie tworzą Issue i nie instalują pluginów.
 Te zależności należy sprawdzić w docelowym środowisku przed zajęciami.
 
 ## Ocena końcowej funkcji procentu
 
 Wymagane są osobno testy: domeny, fabryki, menu/rejestracji, liczb
 z przecinkiem, wartości ujemnych, zera i przepełnienia.
-Nie akceptuj implementacji modulo ani konwersji do `double`.
+Nie akceptuj konwersji do `double`.
 Nie wystarczy dodać klasy bez podpięcia jej do konsoli.
 Specyfikacja dopuszcza dotychczasowy komunikat przy przepełnieniu
 działań pośrednich na `decimal`; nie wymaga obsługi dowolnej precyzji.
